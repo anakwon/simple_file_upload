@@ -27,4 +27,8 @@ Complete the uploadhandler, use either the easy or hard, and change your uploadf
     <li>session_destroy</li>
 </ul>
 </ul>
+<br>A note about file permissions:<br>
+It may be necessary to change the permissions on your uploads directory to allow files to be written to it.  For the purposes of this exercise, you can do the following in either OSX terminal or Windows Git Bash (a straight Windows version does exist, too)<br>
+chmod 777 uploads<br>
+Changing directly to 777 permanently is not normally advisable for anything public facing!
 
